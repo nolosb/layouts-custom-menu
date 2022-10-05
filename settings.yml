@@ -1,0 +1,10 @@
+widget_name:
+  default: 'custom-menu'
+  description:
+    en: "Give a unique name if you want to include this widget several times"
+menu_items:
+  default: >-
+    [{"text":"🧑‍🤝‍🧑 See all Members","url":"/u"},
+    {"text":"✅ Read the Guidelines","url":"/guidelines"},
+    {"text":"🎨 Edit your Profile","url":"/my/preferences/profile"}]
+  json_schema: '{ "type": "array", "format": "table", "uniqueItems": true, "items": { "type": "object", "properties": { "text": { "type": "string", "minLength": 1 }, "url": { "type": "string" } }, "additionalProperties": false } }'
