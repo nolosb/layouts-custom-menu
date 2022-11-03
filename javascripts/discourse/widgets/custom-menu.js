@@ -17,7 +17,7 @@ export default layouts.createLayoutsWidget(`${settings.widget_name}`, {
     return [
       new RenderGlimmer(
         this,
-        "ul.custom-menu",
+        "div.content",
         hbs`<CustomMenu/>`
       ),
     ];

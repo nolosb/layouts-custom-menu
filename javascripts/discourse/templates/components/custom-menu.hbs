@@ -1,7 +1,10 @@
-{{#each menuItems as |item|}}
-  <li>
-    <a class="custom-menu-link" href={{item.url}} title={{item.text}}>
-      {{item.text}}
-    </a>
-  </li>
-{{/each}}
+<h3 class="widget-heading">{{theme-setting 'widget_heading'}}</h3>
+  <ul class="custom-menu">
+    {{#each menuItems as |item|}}
+      <li>
+        <a class="custom-menu-link" href={{item.url}} title={{item.text}}>
+          {{item.text}}
+        </a>
+      </li>
+    {{/each}}
+  </ul>
