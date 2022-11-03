@@ -1,8 +1,4 @@
-widget_name:
-  default: 'custom-menu'
-  description:
-    en: "Give a unique name if you want to include this widget several times"
-widget_heading:
+menu_heading:
   default: 'Custom Menu'
   description:
     en: "Change the wdiget heading"

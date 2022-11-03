@@ -11,7 +11,7 @@ try {
   console.error(error);
 }
 
-export default layouts.createLayoutsWidget(`${settings.widget_name}`, {
+export default layouts.createLayoutsWidget("custom-menu", {
 
   html(attrs, state) {
     return [
